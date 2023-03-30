@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     TextView saida;
     Button confirmabtt, gerarbtt;
     int numero = 0;
+    int tentativas;
     Random gerador = new Random();
 
     @Override
